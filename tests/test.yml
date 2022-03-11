@@ -8,4 +8,4 @@
       - files/secrets/credentials.yml
 
   roles:
-      - { role: ansible-test }
+      - { role: ansible-role-test }
