@@ -1,2 +1,2 @@
 # Install a role for apache
-- src: https://github.com/smehar/ansible-test.git
+- src: https://github.com/smehar/ansible-role-test.git
