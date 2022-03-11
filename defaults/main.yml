@@ -1,0 +1,9 @@
+---
+# defaults file for test
+home_page : index.html.j2
+working_dir : "{{ansible_user_dir}}/ansible-test"
+user_var : admin
+credentials_file : files/secrets/credentials.yml
+ip_to_use : 10.0.0.4
+requirements_url : https://github.com/smehar/ansible-test.git
+apache_listen_port: 80

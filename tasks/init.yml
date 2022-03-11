@@ -1,0 +1,10 @@
+---
+- name: Create working directory
+  file:
+    path: "{{ working_dir }}"
+    state: directory
+
+- name: Copy website file template
+  template:
+    src: "{{ home_page }}"
+    dest: "{{ working_dir }}/index.html"

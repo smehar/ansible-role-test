@@ -1,0 +1,11 @@
+---
+- name: Test Apache role
+  hosts: prod
+  become: true
+  vars:
+    system_user: "{{user_var}}"
+  vars_files:
+      - files/secrets/credentials.yml
+
+  roles:
+      - { role: ansible-test }
